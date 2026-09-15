@@ -22,7 +22,7 @@ category{
 bookshelf||--O{ book :contains
 bookshelf{
     id number
-    name string
+    capacity number
 }
 
 officer ||--o{ lending :has
@@ -32,6 +32,7 @@ officer {
 }
 lending {
     id number
+    lender string
     start_time date
     end_time date
     officer_id number
@@ -41,3 +42,5 @@ book ||--o{ lending : has
 
 ```
 https://dbdiagram.io/d/library-erd-6aa8be41957fec6d5bf5ff25
+
+<img src="library.png">
