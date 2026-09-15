@@ -55,3 +55,5 @@ shopping_order ||--o{transaction:has
 
 ```
 https://dbdiagram.io/d/e-commerce-6aa93341fe722b4a39f5fb5d
+
+<img src="e-commrce.png">
